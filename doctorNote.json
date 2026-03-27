@@ -1,0 +1,16 @@
+[
+  {
+    "id": 11,
+    "name": "Myocarditis",
+    "common_name": "Heart Muscle Inflammation",
+    "symptoms": [
+      "Chest pain",
+      "Rapid heartbeat",
+      "Shortness of breath",
+      "Fluid retention",
+      "Fatigue",
+      "Fever"
+    ],
+    "severity": "High"
+  }
+]

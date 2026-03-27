@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "name": "Myocardial Infarction",
+    "common_name": "Heart Attack",
+    "symptoms": [
+      "Chest pain or pressure",
+      "Shortness of breath",
+      "Pain in jaw or back",
+      "Cold sweat",
+      "Nausea"
+    ],
+    "severity": "Critical"
+  },
+  {
+    "id": 2,
+    "name": "Atrial Fibrillation",
+    "common_name": "Arrhythmia",
+    "symptoms": [
+      "Heart palpitations",
+      "Dizziness",
+      "Fatigue",
+      "Shortness of breath",
+      "Chest fluttering"
+    ],
+    "severity": "High"
+  },
+  {
+    "id": 3,
+    "name": "Congestive Heart Failure",
+    "common_name": "Heart Failure",
+    "symptoms": [
+      "Swelling in legs and ankles",
+      "Persistent cough",
+      "Rapid weight gain",
+      "Fatigue",
+      "Difficulty breathing when lying down"
+    ],
+    "severity": "Critical"
+  },
+  {
+    "id": 4,
+    "name": "Coronary Artery Disease",
+    "common_name": "CAD",
+    "symptoms": [
+      "Angina (chest pain)",
+      "Shortness of breath during activity",
+      "General fatigue",
+      "Neck pain"
+    ],
+    "severity": "High"
+  },
+  {
+    "id": 5,
+    "name": "Hypertrophic Cardiomyopathy",
+    "common_name": "Enlarged Heart",
+    "symptoms": [
+      "Fainting during exercise",
+      "Chest pain",
+      "Rapid heartbeat",
+      "Shortness of breath"
+    ],
+    "severity": "High"
+  },
+  {
+    "id": 6,
+    "name": "Mitral Valve Prolapse",
+    "common_name": "Click-Murmur Syndrome",
+    "symptoms": [
+      "Racing heart",
+      "Chest discomfort",
+      "Anxiety",
+      "Lightheadedness",
+      "Fatigue"
+    ],
+    "severity": "Medium"
+  },
+  {
+    "id": 7,
+    "name": "Endocarditis",
+    "common_name": "Heart Infection",
+    "symptoms": [
+      "Fever and chills",
+      "Night sweats",
+      "Aching joints",
+      "Pale skin",
+      "Small red spots on skin"
+    ],
+    "severity": "Critical"
+  },
+  {
+    "id": 8,
+    "name": "Pericarditis",
+    "common_name": "Pericardial Inflammation",
+    "symptoms": [
+      "Sharp chest pain",
+      "Low-grade fever",
+      "Heart palpitations",
+      "Shortness of breath when reclining"
+    ],
+    "severity": "Medium"
+  },
+  {
+    "id": 9,
+    "name": "Bradycardia",
+    "common_name": "Slow Heart Rate",
+    "symptoms": [
+      "Fainting",
+      "Dizziness",
+      "Confusion",
+      "Tiring easily during physical activity"
+    ],
+    "severity": "Medium"
+  },
+  {
+    "id": 10,
+    "name": "Aortic Stenosis",
+    "common_name": "Valve Narrowing",
+    "symptoms": [
+      "Chest pain with exertion",
+      "Feeling faint",
+      "Heart murmur",
+      "Reduced ability to do normal activities"
+    ],
+    "severity": "High"
+  },
+  {
+    "id": 11,
+    "name": "Myocarditis",
+    "common_name": "Heart Muscle Inflammation",
+    "symptoms": [
+      "Chest pain",
+      "Rapid heartbeat",
+      "Shortness of breath",
+      "Fluid retention",
+      "Fatigue",
+      "Fever"
+    ],
+    "severity": "High"
+  }
+]

@@ -1,0 +1,169 @@
+/* =========================================
+   تنسيقات صفحة الطبيب (لوحة التحكم الاحترافية)
+   ========================================= */
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px); /* يراعي مساحة شريط التنقل */
+  width: 100%;
+  background-color: #050505; /* أسود داكن جداً ومريح للعين */
+  padding: 40px 20px;
+}
+
+/* صندوق النموذج الرئيسي */
+.form-container {
+  width: 100%;
+  max-width: 550px;
+  background-color: #121212; /* رمادي داكن ليبرز عن الخلفية */
+  border: 1px solid #2a2a2a; /* إطار ناعم */
+  border-top: 4px solid #ff0101; /* لمسة حمراء جمالية من الأعلى */
+  border-radius: 16px;
+  padding: 40px 35px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6); /* ظل عميق يعطي بروزاً */
+}
+
+/* نصوص الترويسة */
+.form-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-header strong {
+  font-size: 1.8rem;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.form-header p {
+  color: #888888;
+  font-size: 0.95rem;
+}
+
+/* الحقول والمجموعات */
+.doctor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group label {
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* تصميم حقول الإدخال (Inputs & Textarea) */
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* تأثير عند الضغط والكتابة داخل الحقل */
+.input:focus {
+  border-color: #ff0101;
+  background-color: #222222;
+  box-shadow: 0 0 0 3px rgba(255, 1, 1, 0.15); /* توهج أحمر خفيف */
+}
+
+/* تخصيص النص الإرشادي (Placeholder) */
+.input::placeholder {
+  color: #555555;
+}
+
+/* تخصيص مربع النصوص الكبير (Textarea) */
+.textarea {
+  resize: vertical;
+  min-height: 110px;
+  line-height: 1.5;
+}
+
+/* تخصيص قائمة الاختيار (Select) */
+select.input {
+  appearance: none;
+  cursor: pointer;
+}
+
+/* تصميم زر الحفظ */
+.submit-btn {
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 100%;
+  background-color: #ff0101;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 1, 1, 0.3);
+}
+
+/* تأثير عند تمرير الماوس على الزر */
+.submit-btn:hover {
+  background-color: #d10000;
+  transform: translateY(-2px); /* حركة خفيفة للأعلى */
+  box-shadow: 0 6px 20px rgba(255, 1, 1, 0.4);
+}
+
+/* تأثير عند النقر على الزر */
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+/* حالة الزر أثناء التحميل */
+.submit-btn:disabled {
+  background-color: #555555;
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* رسائل النجاح والخطأ */
+.status-message {
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 5px;
+  animation: fadeIn 0.3s ease; /* حركة ظهور ناعمة */
+}
+
+.status-message.success {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.status-message.error {
+  background-color: rgba(255, 1, 1, 0.1);
+  color: #ff0101;
+  border: 1px solid rgba(255, 1, 1, 0.3);
+}
+
+/* حركة الظهور (Animation) */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
